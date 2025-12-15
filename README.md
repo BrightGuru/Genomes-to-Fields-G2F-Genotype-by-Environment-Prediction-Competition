@@ -5,15 +5,15 @@ Using an ensemble of classical and Machine learning methods in genomic predictio
 
 ## Code Structure and Script Description
 
-This repository contains scripts used for phenotypic preprocessing, genomic data integration, and model development for maize yield prediction using gradient boosting and ensemble learning approaches.
+This repository contains scripts for phenotypic preprocessing, genomic data integration, and model development for maize yield prediction using gradient boosting and ensemble learning.
 
-## Data Preprocessing and Preliminary Analysis
+### Data Preprocessing and Preliminary Analysis
 
 **Phenotypic and Genotypic Preliminary Analysis**
 *Preliminary_Analysis.R*
 - Performs data cleaning, outlier detection, BLUE estimation, and initial exploratory analyses for phenotypic and genotypic datasets. It also contains code for creating additive-centered (Z) and dominance deviation (W) matrices
 
-**Model Implementations**
+### Model Implementations
 
 1. XGBoost Model (Concatenated Features)
 *G2F_normal.py*
@@ -38,4 +38,4 @@ This repository contains scripts used for phenotypic preprocessing, genomic data
 5. XGBoost and LightGBM Ensemble
 *G2F_normal.py*
 *G2F_LGBM_normal.py*
-Trains parallel XGBoost and LightGBM models on the same concatenated feature matrix (SNP markers, metadata, and weather data). Final predictions are obtained via simple averaging of model outputs.
+- Trains parallel XGBoost and LightGBM models on the same concatenated feature matrix (SNP markers, metadata, and weather data). Final predictions are obtained via simple averaging of model outputs.
