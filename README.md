@@ -15,8 +15,7 @@ This repository contains scripts for phenotypic preprocessing, genomic data inte
 
 ### Model Implementations
 
-1. XGBoost Model (Concatenated Features)
-- *G2F_normal.py*
+1. XGBoost Model (Concatenated Features) - *G2F_normal.py*
 - Trains an XGBoost model using a fully concatenated feature matrix comprising SNP markers, metadata, and weather variables.
 
 2. 2NP Weighted Ensemble (Additive and Dominance)
