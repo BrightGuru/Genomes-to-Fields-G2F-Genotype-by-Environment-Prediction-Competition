@@ -3,7 +3,7 @@ Genotype by Environment Prediction Competition 2024
 
 Using an ensemble of classical and Machine learning methods in genomic prediction in multiple environments.
 
-Code Structure and Script Description
+## Code Structure and Script Description
 
 This repository contains scripts used for phenotypic preprocessing, genomic data integration, and model development for maize yield prediction using gradient boosting and ensemble learning approaches.
 
