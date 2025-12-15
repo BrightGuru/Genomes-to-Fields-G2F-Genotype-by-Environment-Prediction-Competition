@@ -16,7 +16,7 @@ Performs data cleaning, outlier detection, BLUE estimation, and initial explorat
 Model Implementations
 
 XGBoost Model (Concatenated Features)
-G2F_normal.py
+**G2F_normal.py**
 Trains an XGBoost model using a fully concatenated feature matrix comprising SNP markers, metadata, and weather variables.
 
 2NP Weighted Ensemble (Additive and Dominance)
