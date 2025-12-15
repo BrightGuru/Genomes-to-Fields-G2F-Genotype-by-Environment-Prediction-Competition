@@ -7,11 +7,11 @@ Using an ensemble of classical and Machine learning methods in genomic predictio
 
 This repository contains scripts used for phenotypic preprocessing, genomic data integration, and model development for maize yield prediction using gradient boosting and ensemble learning approaches.
 
-Data Preprocessing and Preliminary Analysis
+## Data Preprocessing and Preliminary Analysis
 
 **Phenotypic and Genotypic Preliminary Analysis**
-Preliminary_Analysis.R
-Performs data cleaning, outlier detection, BLUE estimation, and initial exploratory analyses for phenotypic and genotypic datasets. It also contains code for creating additive-centered (Z) and dominance deviation (W) matrices
+*Preliminary_Analysis.R*
+- Performs data cleaning, outlier detection, BLUE estimation, and initial exploratory analyses for phenotypic and genotypic datasets. It also contains code for creating additive-centered (Z) and dominance deviation (W) matrices
 
 **Model Implementations**
 
