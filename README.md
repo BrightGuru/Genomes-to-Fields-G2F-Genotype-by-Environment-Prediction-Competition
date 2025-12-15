@@ -5,7 +5,7 @@ Using an ensemble of classical and Machine learning methods in genomic predictio
 
 ## Code Structure and Script Description
 
-This repository contains scripts for phenotypic preprocessing, genomic data integration, and model development for maize yield prediction using gradient boosting and ensemble learning.
+This repository contains scripts for phenotypic preprocessing, genomic data filtering, and model development for maize yield prediction using gradient boosting and ensemble learning.
 
 ### Data Preprocessing and Preliminary Analysis
 
